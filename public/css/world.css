@@ -1,0 +1,122 @@
+.app-world-top__left {
+    
+    width : 100%;
+ 
+}
+.app-world-top__right {
+    padding : 0px 15px;
+    
+    flex : 0 0 310px;
+  
+}
+.app-world-top-row {
+    display: flex;
+    padding : 20px;
+}
+.app-world-second__left {
+    
+    padding : 0px 15px;
+}
+
+.app-world-top__right-flex {
+  
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: stretch;
+    height : 97%;
+   
+}
+.app-world-top__right-flex-item {
+    width : 100%;
+}
+.app-world-top__right-over-flow-item-image img {
+    width : 100%;
+}
+.app-world-top__right-over-flow-item {
+    display: flex;
+}
+.app-world-top__right-over-flow-item-image {
+  flex : 0 0 105px;
+}
+.app-world-top__right-over-flow-item-detail {
+    width : 100%;
+    padding : 0px 2px;
+}
+.app-world-top__right-over-flow-item-detail span {
+    font-size: 18px;
+}
+.app-world-top__right-over-flow-item {
+  
+    padding : 10px 0px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.app-world-top__right-over-flow {
+    overflow-x: scroll;
+    height : 540px;
+    border: 1px solid #e5e5e5;
+    padding : 0px 14px;
+}
+.app-world-top__right-over-flow::-webkit-scrollbar {
+     display: none;
+}
+.app-world-second__right-grid {
+   
+ 
+    display: grid;
+    
+}
+.app-world-second__right-grid-item {
+   
+    
+    border-bottom : 1px solid #e5e5e5;
+}
+.app-world-second__right-grid-item-content {
+    padding : 15px;
+}
+.app-world-second__right-grid-item-image img {
+    width : 100%;
+}
+.app-world-second__right-grid .app-world-second__right-grid-item:first-child {
+   padding: 0px !important;
+    background: #f7f7f7;
+    border-bottom : none !important;
+}
+
+.app-world-second__right-banner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.app-world-second__right-banner-item img {
+    width : 100%;
+    height : 90%;
+}
+.app-world-second__right-item-title span {
+    font-size: 21px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #9f224e;
+}
+.app-world-second__right-item-title {
+    margin-bottom: 18px;
+}
+.app-world-second__right-grid-item-content h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    line-height: 23px;
+}
+.app-world-second__right-grid-item-content span {
+    font-size: 16px;
+   line-height: 20px;
+}
+.app-world-second__right-grid-item>a>h3 {
+    margin-bottom: 6px;
+}
+.app-world-second__right-grid-item>a>span {
+   line-height: 20px;
+}
+.app-world-second__right-item {
+    border-bottom: 1px solid #e5e5e5;
+    padding : 20px 0px;
+}

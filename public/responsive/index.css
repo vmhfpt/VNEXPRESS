@@ -1,0 +1,132 @@
+
+
+@media only screen and (max-width: 600px) {
+    .app-new-top__represent-list-reverse-item-image {
+        flex: 0 0 100%;
+    }
+   .app-new__pagination {
+    justify-content: center;
+   }
+   .dd-border {
+    border-right: none;
+   }
+   .app-new-center__content {
+    padding : 0px;
+   }
+  .app-talk__left {
+    padding : 0px;
+  }
+
+    .app-new__pagination-tab {
+      display: none;
+    }
+    .app-footer-logo__item-last-item {
+        justify-content: center;
+        display: flex;
+        width : 100%;
+        padding-bottom: 10px;
+    }
+    .col-nav {
+        display: none;
+    }
+   .app-new-top__represent-list-reverse-item-content {
+    padding : 0px;
+   }
+   .app-header__date,.app-header__button, .app-header__search {
+    display: none;
+   }
+   .app-header__logo {
+       
+    width : 100%; 
+ }
+ .container-nav {
+    width : 100vw;
+    padding : 0px 10px;
+}
+.app-new-top__represent {
+   flex-wrap : wrap;
+}
+.app-new-top__represent-image {
+    width : 100% !important;
+}
+.app-new-top__represent-list-reverse-item {
+    display: flex;
+    flex-direction: column;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+   
+    .app-new-center__category {
+        display : none;
+    }
+    .app-new-top__represent-image {
+        flex : 0 0 350px;
+    }
+    .app-header__logo {
+       
+        width : 100%; 
+     }
+    .app-header__date {
+        display : none;
+    }
+    .app-header__search {
+        display : none;
+    } 
+    .container-nav {
+        padding : 0px 10px;
+        width : 100vw;
+    }
+  
+   
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  
+    .col-nav {
+        display: block;
+    }
+    
+  
+  .app-demo__content {
+    grid-template-columns:  auto auto auto;
+}
+.app-list__left-item-image {
+    flex: 0 0 200px;
+   
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+   
+   
+    .app-header__search {
+        display : flex;
+    }
+    .container-nav {
+        display: block;
+        width : 90%;
+    }
+    .app-new-center__category {
+        display : block;
+    }
+    .app-new-top__represent-image {
+        flex : 0 0 500px;
+    }
+ 
+}
+ 
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+ 
+    
+    .app-header__date {
+        display : flex;
+    }
+    .container-nav {
+        width : 1370px;
+    }
+}
